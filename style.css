@@ -1,9 +1,20 @@
 *{
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     border : border-box;
 }
-.navbar{
-    height:60px;
+.navbar {
+    height: 60px;
     background-color: #0f1111;
+    color: white;
+}
+.navlogo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("images.png");
+    background-size: cover;
+    height:50px;
+    width: 100%;
 }
