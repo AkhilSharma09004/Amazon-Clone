@@ -7,6 +7,7 @@
     height: 60px;
     background-color: #0f1111;
     color: white;
+    display:flex;
 }
 .navlogo{
     height:50px;
@@ -23,4 +24,18 @@
 }
 .border:hover{
     border: 1.5px solid white;
+}
+
+/** box2 **/
+
+.addressFirst{
+color:#cccccc;
+font-size: 0.85rem;
+}
+.location{
+color: white;
+}
+.icon{
+    display: flex;
+    align-items: center;
 }
