@@ -116,3 +116,11 @@ span{
 .panel-ops p{
     display: inline;
 }
+.panel-ops{
+     width : 70%;
+     font-size: 0.85rem;
+}
+.deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
