@@ -125,3 +125,16 @@ span{
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+/**hero Section**/
+
+.heroSection{
+    background-image: url(hero.png);
+    background-size: cover;
+    height:300px;
+}
+.heroMessage{
+    background-color: white;
+    color: black;
+    height: 40px;;
+}
