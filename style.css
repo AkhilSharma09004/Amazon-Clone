@@ -155,9 +155,11 @@ span{
 
 .shopping{
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: rgb(222, 199, 253);
 }
+
 
 .box{
     border:2px solid black;
@@ -172,7 +174,9 @@ span{
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    
+}
+.boximg:hover{
+    border: 2px solid black;
 }
 .boxcontent{
     margin-left:1rem;
@@ -200,4 +204,39 @@ footer{
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+}
+.panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.panel3{
+    background-color:#222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("images.png");
+    background-size: cover;
+    height:50px;
+    width: 100%;
+    width: 100px;
 }
